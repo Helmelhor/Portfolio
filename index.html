@@ -1,26 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Helmer Barcelos Portfolio</title>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Helmer Barcelos | Desenvolvedor Full Stack</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-    <section>
+
+<div class="container mt-5">
+
+    <section class="text-center my-5">
         <h1 class="display-1">Helmer Barcelos</h1>
-        <h1> <span class="text-danger">Desenvolvedor Full Stack</span></h1>
-        <p>Esta é uma vitrine do meu trabalho e projetos.</p>
+        <h2><span class="text-danger">Desenvolvedor Full Stack</span></h2>
+        <p class="lead">Uma vitrine do meu trabalho, habilidades e projetos. Bem-vindo(a)!</p>
+        <img src="img/foto minha.jpg" alt="Foto de Helmer Barcelos" class="img-fluid mb-4 shadow border border-3 border-secondary" style="border-radius: 12px; object-fit: cover; width: 300px; height: 300px;">
     </section>
 
-    <section>
-        <h2 class="display-2">Sobre mim</h2>
-        <p>Trabalho com automações e criação de visões estratégicas para o seu negócio.</p>
+    <section class="my-5">
+        <h2 class="display-4 text-center mb-4">Sobre mim</h2>
+        <p>Com foco em desenvolvimento e automação, minha especialidade é criar visões estratégicas e soluções tecnológicas para o seu negócio, transformando dados em resultados e otimizando processos.</p>
     </section>
 
-    <section>
-        <h2 class="display-2">Habilidades</h2>
+    <section class="my-5">
+        <h2 class="display-4 text-center mb-4">Habilidades</h2>
         <div id="carouselExampleCaptions" class="carousel slide">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -31,24 +35,22 @@
     <div class="carousel-item active">
       <img src="img\image.png" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Python</h5>
-        <p>Python é a linguagem que tenho mais experiência.</p>
+        <h5>Construção de Softwares</h5>
+        <p>Faço desenvolvimento de aplicações web, desktop e mobile, utilizando as melhores práticas e tecnologias do mercado.</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="img\image.png" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+        <h5>Automações processuais</h5>
+        <p>Desenvolvo soluções para automatizar processos, utilizando N8N e programação, aumentando a eficiência e reduzindo erros.</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="img\image.png" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-        
-    
+        <h5>Dashboards e Business Intelligence</h5>
+        <p>Desenvolvo dashboards interativos e soluções de Business Intelligence para análise de dados e tomada de decisões estratégicas.</p>
       </div>
     </div>
   </div>
@@ -61,66 +63,69 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-    
     </section>
-       
+
+    <section class="my-5">
+        <h2 class="display-4 text-center mb-4">Projetos</h2>
+        <div class="row">
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card shadow-sm h-100">
+                    <img src="img/projeto-financeiro.png" class="card-img-top" alt="Preview do gerenciador financeiro">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Gerenciador financeiro</h5>
+                        <p class="card-text">Aplicativo para gerenciar finanças pessoais, permitindo o controle de despesas e receitas.</p>
+                        <div class="mt-auto">
+                           <a href="https://github.com/helmelhor/link-do-projeto" class="btn btn-primary" target="_blank">Ver projeto</a>
+                           <span class="badge text-bg-warning">Python</span>
+                           <span class="badge text-bg-warning">Streamlit</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card shadow-sm h-100">
+                    <img src="img\flightprice.webp" class="card-img-top" alt="Preview do agente de Machine Learning">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Previsor de Passagens Aéreas</h5>
+                        <p class="card-text">Agente que analisa dados para prever preços de passagens utilizando regressão linear.</p>
+                         <div class="mt-auto">
+                            <a href="https://github.com/helmelhor/link-do-projeto-2" class="btn btn-primary" target="_blank">Ver projeto</a>
+                            <span class="badge text-bg-info">Machine Learning</span>
+                            <span class="badge text-bg-info">Regressão Linear</span>
+                            <span class="badge text-bg-info">Random Forest</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+    </section>
+
+    <section class="my-5 text-center">
+        <h2 class="display-4 mb-4">Contato</h2>
+        <p>Interessado em colaborar? Entre em contato por e-mail ou me encontre nas redes sociais!</p>
+        <p><a href="mailto:hfelixmsouza@gmail.com">hfelixmsouza@gmail.com</a></p>
+        <div>
+            <a href="https://www.linkedin.com/in/helmer-barcelos-a46734289/" target="_blank" rel="noopener noreferrer" class="me-3">
+                <img src="img/linkedin.png" alt="Meu perfil no LinkedIn" width="30" height="30">
+            </a>
+            <a href="https://www.github.com/helmelhor" target="_blank" rel="noopener noreferrer" class="me-3">
+                <img src="img/github.png" alt="Meu perfil no GitHub" width="30" height="30">
+            </a>
+            <a href="https://www.instagram.com/helmelhor_/" target="_blank" rel="noopener noreferrer" class="me-3">
+                <img src="img/instagram.png" alt="Meu perfil no Instagram" width="30" height="30">
+            </a>
+            <a href="mailto:hfelixmsouza@gmail.com" target="_blank" rel="noopener noreferrer" class="me-3">
+                <img src="img/gmail.png" alt="Meu perfil no Gmail" width="30" height="30">
+            </a>
+        </div>
+    </section>
+
 </div>
-    </section>
 
-    <section>
-        <h2 class="display-2">Projetos</h2>
-        <ul>
-            
-                <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded" class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Gerenciador financeiro com python</h5>
-                        <p class="card-text">Um aplicativo para gerenciar finanças pessoais, permitindo o controle de despesas e receitas.</p>
-                        <a href="#" class="btn btn-primary">Ver projeto</a>
-                        <button type="button" class="btn btn-outline-warning">Python</button>
-                        
-                    </div>
-                </div>
+<footer class="bg-light text-center p-3 mt-5">
+    <p class="mb-0">&copy; 2025 Helmer Barcelos. Todos os direitos reservados.</p>
+</footer>
 
-                <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded" class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Agente que prevê preço de passagens aéreas (machine learning)</h5>
-                        <p class="card-text">Um agente inteligente que analisa dados históricos para prever preços de passagens aéreas utilizando regressão linear.</p>
-                        <a href="#" class="btn btn-primary">Ver projeto</a>
-                        <button type="button" class="btn btn-outline-warning">Machine Learning</button>
-                    </div>
-                </div>
-            
-        </ul>
-    </section>
-
-    <section>
-        <h2 class="display-2">Contatos</h2>
-        <p>Você pode entrar em contato comigo através do e-mail: <a href="mailto:hfelixmsouza@gmail.com">hfelixmsouza@gmail.com</a></p>
-        <nav class="navbar bg-body-tertiary">
-  <div class="container">
-    <a class="navbar-brand" href="#">
-      <a href="https://www.linkedin.com/in/helmer-barcelos-a46734289/" target="_blank" rel="noopener noreferrer" class="me-3">
-        <img src="img/linkedin.png" alt="Meu perfil no LinkedIn" width="30" height="30">
-      </a>
-      <a href="https://www.github.com/helmelhor" target="_blank" rel="noopener noreferrer" class="me-3">
-        <img src="img/github.png" alt="Meu perfil no GitHub" width="30" height="30">
-      </a>
-      <a href="https://www.instagram.com/helmelhor_/" target="_blank" rel="noopener noreferrer" class="me-3">
-        <img src="img/instagram.png" alt="Meu perfil no Instagram" width="30" height="30">
-      </a>
-      <a href="mailto:hfelixmsouza@gmail.com" class="me-3">
-        <img src="img/gmail.png" alt="Meu e-mail" width="30" height="30">
-      </a>
-    </a>
-  </div>
-</nav>
-    </section>
-
-    
-    <footer>
-        <p>&copy; 2025 Helmer Barcelos. Todos os direitos reservados.</p>
-    </footer>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
