@@ -1,0 +1,23 @@
+/* Importa as fontes do Google Fonts no topo do seu CSS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Inter:wght@400;500&display=swap');
+
+/* Define variáveis CSS para facilitar a manutenção */
+:root {
+    --cor-fundo: #222831;
+    --cor-texto: #EAEAEA;
+    --cor-destaque: #00ADB5; /* Azul padrão do Bootstrap, mas você pode mudar */
+    --cor-card: #2A2A2A;
+    
+    --fonte-titulos: 'Poppins', sans-serif;
+    --fonte-corpo: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    font-family: var(--fonte-corpo);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--fonte-titulos);
+}
