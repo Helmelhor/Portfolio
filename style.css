@@ -3,9 +3,9 @@
 
 /* Define variáveis CSS para facilitar a manutenção */
 :root {
-    --cor-fundo: #222831;
+    --cor-fundo: #1a1a19;
     --cor-texto: #EAEAEA;
-    --cor-destaque: #00ADB5; /* Azul padrão do Bootstrap, mas você pode mudar */
+    --cor-destaque: #0fe6fe; /* Azul padrão do Bootstrap, mas você pode mudar */
     --cor-card: #2A2A2A;
     
     --fonte-titulos: 'Poppins', sans-serif;
