@@ -145,3 +145,28 @@ h1, h2, h3, h4, h5, h6 {
           padding-bottom: 0 !important;
         }
       }
+
+/* Estilos do Carrossel */
+.carousel {
+    max-width: 800px; /* Largura máxima do carrossel */
+    margin: 0 auto; /* Centraliza o carrossel */
+}
+
+.carousel-inner img {
+    height: 400px; /* Altura fixa para todas as imagens */
+    object-fit: cover; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente para o texto */
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+/* Responsividade do carrossel */
+@media (max-width: 768px) {
+    .carousel-inner img {
+        height: 250px; /* Altura menor em dispositivos móveis */
+    }
+}
